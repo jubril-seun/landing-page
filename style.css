@@ -73,3 +73,45 @@ button {
     border-radius: 6px;
     font-weight: 600;
 }
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.information-section-header {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-image-container {
+    /* background-color: black; */
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: #3882F6;
+    overflow: hidden;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
